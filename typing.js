@@ -14,7 +14,7 @@
   let typingSpeed = 200;
   let deleteSpeed = 40;
   let waitTime = 1000;
-  let strings = ["Hello This is Dylan !!", "I am glad you are visiting my website", "Hope you like it and have a nice day!!"];
+  let strings = ["Hello This is Dylan !!", "I am glad you are visiting my website"];
 
   // 起初等待waitTime秒執行typing
   setTimeout("typing()", waitTime);

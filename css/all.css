@@ -15,7 +15,7 @@ a {
   right: 20% !important;
 }
 .activeNav {
-  color: brown !important;
+  color: rgb(165, 42, 42) !important;
 }
 .container {
   font-family: Microsoft JhengHei;
@@ -24,6 +24,7 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: #222;
 }
 /* ============ Header ============ */
 .container > .header {
@@ -42,7 +43,7 @@ a {
   left: 16px;
 }
 .container > .header > .menu > a {
-  color: white;
+  color: #fff;
 }
 .container > .header > .menu > a > i {
   padding: 22px 8px;
@@ -73,7 +74,7 @@ a {
   margin-left: 20px;
 }
 .container > .header > .logo a {
-  color: white;
+  color: #fff;
 }
 /* --- 導覽列 --- */
 .container > .header > .nav {
@@ -93,7 +94,7 @@ a {
   transition: 0.4s;
 }
 .container > .header > .nav > a:hover {
-  color: white;
+  color: #fff;
   background-color: rgba(0, 0, 0, 0.1);
 }
 /* ============ Home ============ */
@@ -106,7 +107,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #fff;
   text-align: center;
 }
 /* --- 主標題 --- */
@@ -125,14 +126,14 @@ a {
 .container > .home > .slideBtn {
   position: absolute;
   bottom: 8px;
-  color: white;
+  color: #fff;
   border: 1px solid white;
   padding: 20px 8px;
   border-radius: 16px;
 }
 .container > .home > .slideBtn:hover {
-  color: brown;
-  border: 1px solid brown;
+  color: rgb(165, 42, 42) ;
+  border: 1px solid rgb(165, 42, 42) ;
 }
 .container > .home > .slideBtn i {
   transform: translateY(-12px);
@@ -171,7 +172,7 @@ a {
   left: 20%;
   right: 100%;
   bottom: -8px;
-  background-color: brown;
+  background-color: rgb(165, 42, 42) ;
   transition: 1s;
 }
 .container > .experience > .section {
@@ -246,7 +247,7 @@ a {
   left: 20%;
   right: 100%;
   bottom: -8px;
-  background-color: brown;
+  background-color: rgb(165, 42, 42) ;
   transition: 1s;
 }
 .container > .about > .section {
@@ -277,7 +278,7 @@ a {
   font-size: 24px;
   line-height: 40px;
   margin: 8px 0 0;
-  color: brown;
+  color: rgb(165, 42, 42) ;
   font-weight: 600;
 }
 /* --- 小圖示 --- */
@@ -286,7 +287,7 @@ a {
 }
 .container > .about > .section > .pic > .icon > a:hover {
   animation: spin 1s infinite alternate;
-  background-color: brown;
+  background-color: rgb(165, 42, 42) ;
   transition: 0.5s;
 }
 .container > .about > .section > .pic > .icon > a {
@@ -297,7 +298,7 @@ a {
   text-align: center;
   line-height: 40px;
   background-color: black;
-  color: white;
+  color: #fff;
   border-radius: 50%;
 }
 /* --- Email --- */
@@ -320,7 +321,7 @@ a {
   margin: 0 0 16px;
 }
 .container > .about > .section > .txt > p > strong {
-  color: brown;
+  color: rgb(165, 42, 42) ;
   font-weight: 600;
 }
 /* ============ 前端 ============ */
@@ -352,7 +353,7 @@ a {
   left: 20%;
   right: 100%;
   bottom: -8px;
-  background-color: brown;
+  background-color: rgb(165, 42, 42) ;
   transition: 1s;
 }
 .container > .skills > .section {
@@ -439,7 +440,7 @@ a {
   left: 20%;
   right: 100%;
   bottom: -8px;
-  background-color: brown;
+  background-color: rgb(165, 42, 42) ;
   transition: 1s;
 }
 .container > .works > .section {
@@ -478,25 +479,25 @@ a {
   background-color: rgba(0, 0, 0, 0.6);
 }
 .container > .works > .section > .item > .pic > .mask > a {
-  color: blue;
+  color: #00f;
   margin: 0 auto;
   padding: 8px 24px;
-  border: 1px solid blue;
+  border: 1px solid #00f;
   background-color: rgba(255, 255, 255, 0.4);
   font-weight: 700;
   transition: 0.4s;
 }
 .container > .works > .section > .item > .pic > .mask > a:first-child {
-  color: brown;
-  border: 1px solid brown;
+  color: rgb(165, 42, 42) ;
+  border: 1px solid rgb(165, 42, 42) ;
 }
 .container > .works > .section > .item > .pic > .mask > a:hover {
-  background-color: blue;
-  color: white;
+  background-color: #00f;
+  color: #fff;
 }
 .container > .works > .section > .item > .pic > .mask > a:first-child:hover {
-  background-color: brown;
-  color: white;
+  background-color: rgb(165, 42, 42) ;
+  color: #fff;
 }
 /* --- Icon --- */
 .container > .works > .section > .item > .pic > .icon {
@@ -506,11 +507,11 @@ a {
   width: 160px;
   text-align: center;
   padding: 16px 0;
-  background-color: blue;
-  color: white;
+  background-color: #00f;
+  color: #fff;
 }
 .container > .works > .section > .item > .pic > .icon > a:first-child {
-  background-color: brown;
+  background-color: rgb(165, 42, 42) ;
 }
 /* --- 文字 --- */
 .container > .works > .section > .item > .txt {
@@ -625,6 +626,22 @@ a {
 @media screen and (min-width: 1200px) {
   .container > .works > .section {
     justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 960px) {
+  .container {
+    font-family: Microsoft JhengHei;
+    background-image: url(../image/main.jpg);
+    background-size: contain  ;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .container > .experience > .section {
+    opacity: 0;
+    transition: 1s;
+    background: #fff;
+    border-radius: 0 15px 15px 0;
+    margin: 15px;
   }
 }
 @keyframes slide {
